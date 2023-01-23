@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anipet Scrapper</title>
+    <style>
+      /* Add a underline for main headings */
+      h1, h2, h3 {
+        text-decoration: underline;
+      }
+      /* Add some spacing and formatting for the main heading */
+      h1 {
+        margin-top: 50px;
+        font-size: 3em;
+        text-align: center;
+      }
+      /* Add spacing and formatting for the subheadings */
+      h2, h3 {
+        margin: 20px 0;
+        font-size: 1.5em;
+      }
+      /* Add spacing and formatting for the links */
+      a {
+        margin: 10px 0;
+        font-size: 1.2em;
+        color: blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center mb-5">Anipet Scrapper</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h2>About Our Project</h2>
+            <p>Information retreavel project, collecting information from a pet store called Anipet:<a href="https://anipet.co.il/">visit the store </a> you could also <a href="https://github.com/username/anipet-scrapper">View on GitHub</a></p>
+            <hr>
+        </div>
+          <div class="col-md-6 mb-5">
+            <h2>Technologies Used</h2>
+            <ul class="list-group">
+              <li class="list-group-item"><b>Beautiful Soup: </b>     for retrieving information from websites and parsing HTML pages via Python. 
+              </li>
+              <br><li class="list-group-item"><b>Requests: </b>   module for sending HTTP requests in Python inventions. </li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="col-md-6 mb-5">
+          <h2>Queries Run Time</h2>
+          <img src="RunTime.JPG"  width="25%"  height="auto">
+          <h4>How to improve the queries run time?</h4>
+          <p>There are several factors that can improve the run time:</p>
+          <ul class="list-group">
+            <li class="list-group-item"><b>Connectivity: </b>In order to retrieve information from the website, our code opens a chrome page, enters the query we wish to run on the site, and then proceeds by visiting each product returned by the query, so the more faster the internet connection, the better the run time would be. 
+            </li>
+            <br><li class="list-group-item"><b>Stability: </b>In our project we ran into stability issues with the website, where it would cause the chrome page to freeze until the site goes back online, so the more stable the site itself is, the better the run time would be. </li>
+          </ul>
+                </h2>
+              <hr>
+              <h2>Authority and hub of three pages
+            </h2>
+                <P><b>The three pages are:</b></P>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Food</b>  
+                    </li>
+                    <br>
+                    <li class="list-group-item"><b>Dog food</b></li>
+                    <br>
+                    <li class="list-group-item"><b>Cat food</b></li>
+                </ul>
+                <img src="hubAuth.jpg"  width="45%"  height="auto">
+
+              </div>
+              <hr>
+              <h2>Page Rank</h2>
+              <p>We perform our page rank with an online stimulator which you can find at: <a href="https://computerscience.chemeketa.edu/cs160Reader/_static/pageRankApp/index.html">Page rank tool</a>
+              </p>
+              <img src="PageRank.jpg"  width="35%"  height="auto">
+              <hr>
+              <h2>Relevance feedback</h2>
+              <p><b>User1</b>
+                <br>
+                <br>
+                <br>
+                <img src="User1.jpg"  width="25%"  height="auto">
+                <p><Br> </Br></p>
+                <br>
+                <br>
+                <p>User 1 was only intersted in products for dogs with buy option of atleast 3 kilograms , and only for dogs and in bonzo type, therefore only 3 out of the 10 pages were relevant to him.
+                </p>
+                <br>
+                <p><b>Optimized query:</b>We can sort the results by weight.</p>
+                <br>
+              <p><b>User2</b></p>
+              <img src="User2.jpg"  width="25%"  height="auto">
+              <br>
+              <p>User 2 was more open to types and weight, therefore 5 out of the 10 were relevant to him.</p>
+              <br>
+              <p><b>Optimized query:</b>sort the results by types</p>
+            </div>
+            
+  </body>
+</html>
